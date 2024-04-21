@@ -1,0 +1,7 @@
+curl.exe -X 'GET'    'http://127.0.0.1:8000/images' -H 'accept: application/json'  // Get images
+
+curl.exe -X 'GET'    'http://127.0.0.1:8000/tags' -H 'accept: application/json'  // Get images
+
+curl.exe -X 'GET'    'http://127.0.0.1:8000/images/{name}' -H 'accept: application/json'  // Get images with "name"
+
+curl.exe -X 'DELETE'  'http://127.0.0.1:8000/images/del'  -H 'accept: application/json'  -H 'Content-Type: application/json' -d '[ 2 ]'
